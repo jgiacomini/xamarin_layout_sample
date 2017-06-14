@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+<!-- Title -->
+    <TextView
+        android:text="Conditions d'utilisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="44dip" />
+<!-- Separator -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linearLayout2"
+        android:background="#FF3333FF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp" />
+<!-- Content -->
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae euismod velit. Vestibulum pulvinar ex dui, nec ornare metus tincidunt sit amet. Sed vitae mauris quam. Vestibulum quis iaculis diam, ut auctor lectus. Proin placerat erat ut convallis ornare. Curabitur ullamcorper erat lectus, vel scelerisque nisl consequat vel. Donec dapibus arcu nec luctus ultrices."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+<!-- Separator -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linearLayout2"
+        android:background="#FF3333FF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp" />
+<!-- Form -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+    <!-- Label -->
+        <TextView
+            android:text="Acceptez-vous les conditions d'utilisation ?"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="2"
+            android:gravity="center_vertical" />
+    <!-- CheckBox -->
+        <CheckBox
+            android:text="J'accepte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBox1"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+<!-- Button -->
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+</LinearLayout>
